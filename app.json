@@ -18,7 +18,8 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "isisdecrem.project.js.app"
     },
     "android": {
       "adaptiveIcon": {
@@ -27,7 +28,13 @@
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/favicon.png",
+      "config": {
+        "firebase": {
+          "apiKey": "AIzaSyDa2Cra7Hq9ExskiH-YmRuiMFdHScljzQI",
+          "measurementId": "G-1XDJG9Q80W"
+        }
+      }
     }
   }
 }
